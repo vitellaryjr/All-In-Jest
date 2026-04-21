@@ -15,6 +15,7 @@ local bobblehead = {
     eternal_compat = true,
   
     loc_vars = function(self, info_queue, card)
+        if not G.jokers then return { vars = { localize('k_none') } } end
         local vanilla_rarity_keys = {'common', 'uncommon', 'rare', 'legendary'}
         local rarity_counts = {}
         local max_count = 0
