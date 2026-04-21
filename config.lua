@@ -5,4 +5,5 @@ return {
   ['blue_stake_rework'] = true,
   ['random_deck_skins'] = true,
   ['aij_lite'] = false,
+  ['guess_names'] = false,
 }
