@@ -10,6 +10,7 @@ end
 local greasepaint = {
     object_type = "Joker",
     order = 29,
+    ignore = true,
 
     key = "greasepaint",
     config = {
