@@ -4912,7 +4912,7 @@ pattern = '-- TARGET: main end_of_round evaluation'
 position = 'after'
 match_indent = true
 payload = '''
-SMODS.destroy_cards(G.aij_astral_pin_area.cards, true)
+All_in_Jest.dissolve_pins(G.aij_astral_pin_area.cards)
 '''
 
 # evaluate_play()
@@ -4930,7 +4930,7 @@ for _, v in ipairs(G.aij_astral_pin_area.cards) do
         table.insert(pins_to_destroy, v)
     end
 end
-SMODS.destroy_cards(pins_to_destroy, true)
+All_in_Jest.dissolve_pins(pins_to_destroy)
 '''
 
 # This is so astral pins info queue can work
